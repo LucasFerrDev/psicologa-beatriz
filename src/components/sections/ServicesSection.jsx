@@ -88,9 +88,9 @@ export default function ServicesSection() {
                                     className="wixui-rich-text__text"><span
                                         style={{fontFamily: 'bitter-v2,serif'}}
                                         className="wixui-rich-text__text">Realizo
-                                        atendimentos clínicos
-                                        online para adultos,
-                                        em qualquer lugar do mundo.</span></span></span>
+                                            atendimentos clínicos
+                                            online para adultos e adolescentes,
+                                            em qualquer lugar do mundo.</span></span></span>
                         </p>
                     </div>
                     <div id="comp-mkmmnk2v" className="comp-mkmmnk2v"
