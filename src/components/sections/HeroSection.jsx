@@ -20,7 +20,7 @@ export default function HeroSection() {
                         data-bg-effect-name="" data-has-ssr-src="true"><img
                             src={heroBgImg}
                             alt=""
-                            style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 50%'}}
+                            style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 50%', imageRendering: 'high-quality', backfaceVisibility: 'hidden'}}
                             width="980" height="366" /></wow-image></div>
             </div>
             <div data-mesh-id="comp-mko9ti32inlineContent"
@@ -46,11 +46,12 @@ export default function HeroSection() {
                     <div id="comp-mkgwul3e"
                         className="LKjYWx comp-mkgwul3e wixui-image">
                         <div data-testid="linkElement" className="BzTPNT"><img
-                                fetchpriority="high" sizes="858px"
+                                fetchpriority="high" sizes="(max-width: 768px) 858px, 1200px"
+                                decoding="async"
                                 srcSet={`${atendimentoBannerImg} 1x, ${atendimentoBannerImg} 2x`}
                                 id="img_comp-mkgwul3e"
                                 src={atendimentoBannerImg}
-                                alt="" style={{objectFit: 'cover'}}
+                                alt="" style={{objectFit: 'cover', imageRendering: 'high-quality', backfaceVisibility: 'hidden'}}
                                 className="OcGXIS Tj01hh" width="858"
                                 height="175" /></div>
                     </div>

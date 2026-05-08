@@ -48,6 +48,34 @@
             view-transition-name: none
         }
 
+        img {
+            image-rendering: high-quality;
+            backface-visibility: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            will-change: transform;
+        }
+
+        @media (max-width: 768px) {
+            img {
+                image-rendering: -webkit-optimize-contrast;
+            }
+        }
+
+        /* Otimização de imagens responsivas */
+        .wixui-image img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Suporte a alta resolução em desktop */
+        @media (min-width: 769px) {
+            img[style*="object-fit"] {
+                filter: contrast(1.05);
+            }
+        }
+
         :root:active-view-transition::view-transition-group(*) {
             animation: none
         }

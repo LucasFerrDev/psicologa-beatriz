@@ -34,6 +34,11 @@ module.exports = (env, argv) => {
           generator: {
             filename: 'assets/[name].[contenthash][ext]',
           },
+          parser: {
+            dataUrlCondition: {
+              maxSize: 8 * 1024,
+            },
+          },
         },
       ],
     },

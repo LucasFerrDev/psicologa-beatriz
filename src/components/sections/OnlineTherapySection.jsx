@@ -55,11 +55,12 @@ export default function OnlineTherapySection() {
                                     className="LKjYWx comp-mkh23844 wixui-image">
                                     <div data-testid="linkElement"
                                         className="BzTPNT"><img loading="lazy"
-                                            sizes="284px"
+                                            decoding="async"
+                                            sizes="(max-width: 768px) 284px, 400px"
                                             srcSet={`${perfil2Img} 1x, ${perfil2Img} 2x`}
                                             id="img_comp-mkh23844"
                                             src={perfil2Img}
-                                            alt="" style={{objectFit: 'cover'}}
+                                            alt="" style={{objectFit: 'cover', imageRendering: 'high-quality', backfaceVisibility: 'hidden'}}
                                             className="OcGXIS Tj01hh"
                                             width="284" height="296" />
                                     </div>

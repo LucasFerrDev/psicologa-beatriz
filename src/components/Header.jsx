@@ -178,7 +178,7 @@ export default function Header() {
                                                         srcSet={`${instagramIcon} 1x, ${instagramIcon} 2x`}
                                                         id="img_0_comp-mk70ydh3"
                                                         src={instagramIcon}
-                                                        alt="Instagram" style={{objectFit: 'cover'}} className="YaS0jR Tj01hh"
+                                                        alt="Instagram" style={{objectFit: 'cover', imageRendering: 'auto'}} className="YaS0jR Tj01hh"
                                                         width="31" height="31" /></a></li>
                                             <li id="dataItem-mk714ijf-comp-mk70ydh3" className="O6KwRn"><a
                                                     data-testid="linkElement" href="https://wa.me/5522997466590"
@@ -189,7 +189,7 @@ export default function Header() {
                                                         srcSet={`${whatsappIcon} 1x, ${whatsappIcon} 2x`}
                                                         id="img_1_comp-mk70ydh3"
                                                         src={whatsappIcon}
-                                                        alt="Whatsapp" style={{objectFit: 'cover'}} className="YaS0jR Tj01hh"
+                                                        alt="Whatsapp" style={{objectFit: 'cover', imageRendering: 'auto'}} className="YaS0jR Tj01hh"
                                                         width="31" height="31" /></a></li>
                                         </ul>
                                     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import heroBgImg from '../../assets/img/hero-bg.png';
-import perfil1Img from '../../assets/img/perfil-prof.png';
+import perfil1Img from '../../assets/img/perfil1.jpeg';
 
 export default function AboutSection() {
     return (
@@ -22,7 +22,7 @@ export default function AboutSection() {
                             decoding="async"
                             src={heroBgImg}
                             alt="image_edited_edited.png"
-                            style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 50%'}}
+                            style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 50%', imageRendering: 'high-quality', backfaceVisibility: 'hidden'}}
                             width="980" height="575" /></wow-image></div>
             </div>
             <div data-mesh-id="comp-mko9ti321inlineContent"
@@ -56,12 +56,13 @@ export default function AboutSection() {
                                     <div data-testid="linkElement"
                                         className="BzTPNT"><img
                                             loading="lazy"
-                                            sizes="290px"
+                                            decoding="async"
+                                            sizes="(max-width: 768px) 290px, 400px"
                                             srcSet={`${perfil1Img} 1x, ${perfil1Img} 2x`}
                                             id="img_comp-mkd2hq4g"
                                             src={perfil1Img}
                                             alt="IMG_5475_jpg_edited.jpg"
-                                            style={{objectFit: 'cover'}}
+                                            style={{objectFit: 'cover', imageRendering: 'high-quality', backfaceVisibility: 'hidden'}}
                                             className="OcGXIS Tj01hh"
                                             width="290" height="284" />
                                     </div>
