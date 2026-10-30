@@ -71,71 +71,51 @@ export default function AboutSection() {
                                     className="ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-mkd2pqu1 wixui-rich-text"
                                     data-testid="richTextElement">
                                     <p className="font_8 wixui-rich-text__text"
-                                        style={{fontSize: '19px', lineHeight: '1.4em'}}>
-                                        <span style={{fontSize: '19px'}}
-                                            className="wixui-rich-text__text"><span
-                                                style={{fontWeight: 'normal'}}
-                                                className="wixui-rich-text__text"><span
-                                                    style={{fontFamily: 'bitter-v2,serif'}}
-                                                    className="wixui-rich-text__text">Oi!
-                                                    Que bom te ver por aqui!
-                                                </span><span
-                                                    style={{fontFamily: 'alliance-no-2,sans-serif'}}
-                                                    className="wixui-rich-text__text">:)</span></span></span>
-                                    </p>
-                                    <p className="font_8 wixui-rich-text__text"
-                                        style={{lineHeight: '1.4em', fontSize: '16px'}}>
+                                        style={{fontSize: '19px', lineHeight: '1.4em', marginBottom: '12px'}}>
                                         <span style={{fontWeight: 'normal'}}
                                             className="wixui-rich-text__text"><span
                                                 style={{fontFamily: 'bitter-v2,serif'}}
-                                                className="wixui-rich-text__text">​</span></span>
+                                                className="wixui-rich-text__text">Prazer,
+                                                meu nome é Beatriz!</span></span>
                                     </p>
                                     <p className="font_8 wixui-rich-text__text"
-                                        style={{lineHeight: '1.4em', fontSize: '16px'}}>
-                                        <span style={{fontWeight: 'normal'}}
-                                            className="wixui-rich-text__text"><span
-                                                style={{fontFamily: 'bitter-v2,serif'}}
-                                                className="wixui-rich-text__text">Meu
-                                                nome é Beatriz
-                                                Pimentel.</span></span>
-                                    </p>
-                                    <p className="font_8 wixui-rich-text__text"
-                                        style={{lineHeight: '1.4em', fontSize: '16px'}}>
+                                        style={{lineHeight: '1.4em', fontSize: '16px', marginBottom: '12px'}}>
                                         <span style={{fontWeight: 'normal'}}
                                             className="wixui-rich-text__text"><span
                                                 style={{fontFamily: 'bitter-v2,serif'}}
                                                 className="wixui-rich-text__text">Sou
-                                                psicóloga
-                                                clínica (CRP
-                                                05/05/85932) com
-                                                formação pela
-                                                Afya Centro
-                                                Universitário e
-                                                Pós Graduanda em
-                                                psicanálise com
-                                                crianças e
-                                                adolescentes.</span></span>
+                                                psicóloga e psicanalista.</span></span>
                                     </p>
                                     <p className="font_8 wixui-rich-text__text"
-                                        style={{lineHeight: '1.4em', fontSize: '16px'}}>
-                                        &nbsp;</p>
+                                        style={{lineHeight: '1.4em', fontSize: '16px', marginBottom: '12px'}}>
+                                        <span style={{fontWeight: 'normal'}}
+                                            className="wixui-rich-text__text"><span
+                                                style={{fontFamily: 'bitter-v2,serif'}}
+                                                className="wixui-rich-text__text">Formada
+                                                em 28/01/2026.</span></span>
+                                    </p>
+                                    <p className="font_8 wixui-rich-text__text"
+                                        style={{lineHeight: '1.4em', fontSize: '16px', marginBottom: '12px'}}>
+                                        <span style={{fontWeight: 'normal'}}
+                                            className="wixui-rich-text__text"><span
+                                                style={{fontFamily: 'bitter-v2,serif'}}
+                                                className="wixui-rich-text__text">Atuo
+                                                há 8 meses no CAPS
+                                                Infantojuvenil.</span></span>
+                                    </p>
                                     <p className="font_8 wixui-rich-text__text"
                                         style={{lineHeight: '1.4em', fontSize: '16px'}}>
                                         <span style={{fontWeight: 'normal'}}
                                             className="wixui-rich-text__text"><span
                                                 style={{fontFamily: 'bitter-v2,serif'}}
-                                                className="wixui-rich-text__text">Meu
-                                                trabalho se orienta em uma
-                                                escuta atenta, escuta
-                                                ativa, em acolher a dor e o
-                                                sofrimento psíquico
-                                                com ética, respeito e
-                                                singularidade.
-                                                ​</span></span><span
-                                            style={{fontWeight: 'normal'}}
-                                            className="wixui-rich-text__text"><span
-                                                style={{fontFamily: 'bitter-v2,serif'}}
-                                                className="wixui-rich-text__text">​</span></span>
+                                                className="wixui-rich-text__text">Realizo
+                                                atendimentos psicológicos
+                                                individuais e sou técnica de
+                                                referência de crianças e adolescentes
+                                                em situações de vulnerabilidade social
+                                                e emocional. Também acolho pais
+                                                e responsáveis para compreender
+                                                o contexto familiar.</span></span>
                                     </p>
                                 </div>
                                 <div id="comp-mkd39k8m"
